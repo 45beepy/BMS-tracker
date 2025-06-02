@@ -8,7 +8,7 @@ puppeteer.use(StealthPlugin());
 const app = express();
 
 const URL = 'https://in.bookmyshow.com/movies/pondicherry/thug-life/buytickets/ET00375421/20250605';
-const DISCORD_WEBHOOK = 'your_webhook';
+const DISCORD_WEBHOOK = 'YOUR_WEBHOOK';
 const THEATRE_KEYWORD = 'providence'; 
 
 let notified = false;
